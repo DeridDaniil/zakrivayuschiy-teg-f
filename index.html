@@ -91,7 +91,7 @@
           <h2 class="card__title">1 спринт: Я — чистый лист</h2>
           <div class="card__image-box">
             <label class="card__label">&lt;/HTML&gt;</label>
-            <img src="./images/image-1.jpg" alt="" class="card__image">
+            <img src="./images/image-1.jpg" alt="" class="card__image filter-brightness">
           </div>
           <div class="card__content">
             <div class="card__paragraphs">
@@ -132,7 +132,7 @@
           <h2 class="card__title">1 спринт: А если не получится?</h2>
           <div class="card__image-box">
             <label class="card__label">&lt;css&gt;</label>
-            <img src="./images/image-1.jpg" alt="" class="card__image">
+            <img src="./images/image-1.jpg" alt="" class="card__image filter-contrast">
           </div>
           <div class="card__content">
             <div class="card__paragraphs">
@@ -172,7 +172,7 @@
           <h2 class="card__title">2 спринт: Погоня за идеалом</h2>
           <div class="card__image-box">
             <label class="card__label">&lt;desigions&gt;</label>
-            <img src="./images/image-1.jpg" alt="" class="card__image">
+            <img src="./images/image-1.jpg" alt="" class="card__image filter-blur">
           </div>
           <div class="card__content">
             <div class="card__paragraphs">
@@ -213,7 +213,7 @@
           <h2 class="card__title">2 спринт: О тех, кто рядом</h2>
           <div class="card__image-box">
             <label class="card__label">care</label>
-            <img src="./images/image-1.jpg" alt="" class="card__image">
+            <img src="./images/image-1.jpg" alt="" class="card__image filter-opacity">
           </div>
           <div class="card__content">
             <div class="card__paragraphs">
@@ -255,7 +255,7 @@
           <h2 class="card__title">3 спринт: Обходные стратегии</h2>
           <div class="card__image-box">
             <label class="card__label">&lt;support&gt;</label>
-            <img src="./images/image-1.jpg" alt="" class="card__image">
+            <img src="./images/image-1.jpg" alt="" class="card__image filter-grayscale">
           </div>
           <div class="card__content">
             <div class="card__paragraphs">
@@ -294,7 +294,7 @@
           <h2 class="card__title">3 спринт: Когда опускаются руки</h2>
           <div class="card__image-box">
             <label class="card__label">&lt;lifes-style: none;&gt;</label>
-            <img src="./images/image-1.jpg" alt="" class="card__image">
+            <img src="./images/image-1.jpg" alt="" class="card__image filter-saturate">
           </div>
           <div class="card__content">
             <div class="card__paragraphs">
@@ -334,7 +334,7 @@
           <h2 class="card__title">«Сейчас я здесь»</h2>
           <div class="card__image-box">
             <label class="card__label">&lt;experience&gt;</label>
-            <img src="./images/image-1.jpg" alt="" class="card__image">
+            <img src="./images/image-1.jpg" alt="" class="card__image filter-sepia-invert">
           </div>
           <div class="card__content">
             <div class="card__paragraphs">
@@ -373,7 +373,7 @@
     </ul>
     <button type="button" class="button button__save" onclick="window['modal'].showModal()">
       <svg class="button__svg" viewBox="0 0 21 21">
-        <use href="svg/diskette.svg#diskette">
+        <use href="svg/diskette.svg#diskette" />
       </svg>
       <span class="button__text">Сохранить на память</span>
     </button>
@@ -381,11 +381,11 @@
   <dialog id="modal" class="modal">
     <div class="modal__content">
       <svg class="modal__svg" viewBox="0 0 21 21">
-        <use href="svg/diskette.svg#diskette">
+        <use href="svg/diskette.svg#diskette" />
       </svg>
       <span class="modal__text">Вставьте дискету, чтобы продолжить</span>
     </div>
-    <form>
+    <form method="dialog">
       <button type="submit" class="button modal__button">
         <span class="button__text">ОК</span>
       </button>

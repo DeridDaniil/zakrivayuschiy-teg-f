@@ -14,16 +14,6 @@
 
 */
 
-@keyframes arrow {
-  from {
-    inset-inline-start: -20px;
-  }
-
-  to {
-    inset-inline-start: -16px;
-  }
-}
-
 .page {
   padding-block-start: 100px;
   color: var(--accent-color);
@@ -348,6 +338,38 @@
 }
 
 /* End dialog */
+
+/* Start filter */
+
+.filter-brightness {
+  filter: brightness(200%);
+}
+
+.filter-contrast {
+  filter: contrast(20%);
+}
+
+.filter-blur {
+  filter: blur(3.2rem);
+}
+
+.filter-opacity {
+  filter: opacity(.4);
+}
+
+.filter-grayscale {
+  filter: grayscale(.8);
+}
+
+.filter-saturate {
+  filter: saturate(158%);
+}
+
+.filter-sepia-invert {
+  filter: sepia(80%) invert(.7);
+}
+
+/* End filter */
 
 /* Start media */
 
