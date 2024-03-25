@@ -174,7 +174,7 @@
   z-index: 1;
 }
 
-@supports ((-webkit-text-stroke: 1px var(--text-stroke)) or (text-stroke: 1px var(--text-stroke)))  {
+@supports ((-webkit-text-stroke: 1px var(--text-stroke)) or (text-stroke: 1px var(--text-stroke))) {
   .card__label {
     text-shadow: none;
     -webkit-text-stroke: 1px var(--text-stroke);
@@ -388,6 +388,11 @@
 
   .button__save {
     flex-direction: column;
+  }
+
+  .button__svg {
+    inline-size: 28px;
+    block-size: 28px;
   }
 
   .modal {
